@@ -11,7 +11,7 @@ An analysis and visualization of google play store apps scraped data for the per
 - [Research Questions](#research-questions)
 - [Links](#links)
 - [Built with](#built-with)
-- [Key Insights](#key-insights)
+- [Analysis and Visualizations](#analysis-and-visualizations)
 - [Contributors](#contributors)
   -[Team Anchor](#team-anchor)
 - [Acknowledgements](#acknowledgements)
@@ -119,39 +119,55 @@ Understand the following requirements and query the dataset using MYSQL for disp
 - Python (Pandas, Numpy)
 
 
-## Key Insights
+## Analysis and Visualizations
 
-- Google play store apps generated a total revenue of $292 million between 2010-2018.
+The 5-page report which can be found [_here_](https://www.novypro.com/project/princeboadi) consists of:
+- Dashboard
+- Revenue Analysis
+- Installation Analysis
+- Reviews Analysis
+- Sentiment Analysis
 
-
-- Calculator app generated the highest revenue of all play store apps within the period in question.
-
-
-- 99.7% of all apps on google play store are free whilst only 0.3% of all apps are paid apps.
-
-
-- Subway Surfers has the highest downloads of any app within the period with 5billion downloads.
-
-
-- Apps in the Game and Communication category tend to have a higher download than those in other categories.
-
-
-- The average rating given to apps on google play store is in the region of 3.6 while the average reviews per app is 406,000 reviews.
-
-
-- Facebook, WhatsApp, and Instagram top the chart on the highest reviews for its app on google play store.
-
-
-- Google play store apps saw an unprecedented increase in the number of downloads of its app in 2018 whilst generating a much higher revenue than other years within the period.
-
-
-- Apps in the family and game category generated more revenue than other apps whilst apps in the beauty, comics, house & homes categories generated the least revenue within the period.
-
-
-- In terms of reviews on apps, only 61% of apps received a positive review, 23% received a negative review and 17% received a neutral review from users.
-
+### Dashboard
 
 ![Dashboard](dashboard.png)
+
+The dashboard page brings together visuals from the other four pages to tell a fascinating story about the play store apps with Key metrics highlighted.
+
+### Revenue Analyis
+
+- Google play store apps generated a total revenue of $292 million between 2010-2018.
+- Revenue generation was very low until December 2017 where there was an appreciable increase in revenue and peaked in July 2018.
+- In terms of category of apps, apps in the Family category generated the most revenue followed by Lifestyle, Game, Finance and Photography.
+- These are the top 5 revenue-generating apps: Minecraft, I am rich, I Am Rich Premium, Hitman Sniper and Grand Theft Auto: San Andreas
+
+![](revenue.png)
+
+### Installation Analyis
+
+- A total of about 84 billion installations were made within the period
+- Most installions were made in the month of July
+- About 99% of installations were free apps in the Game, Communication, Family and Tools Category
+- Installation of paid apps were mostly in the Family, Game, Personalization and Photography Category
+
+![](installation.png)
+
+### Reviews Analyis
+
+- A total of about 2 billion reviews were counted
+- These are the top 5 most reviewed apps: Clash of Clans, Facebook, WhatsApp Messenger, Instagram and Messenger Text and Video Chat for Free
+- These are the top 5 most reviewed genres: Communication, Tools, Productivity, Photography and Social
+
+![](reviews.png)
+
+### Sentiment Analyis
+
+- Sentiments of 865 Apps were collated
+- Negative sentiments represnted 32.91%, Neutral 31.19% and Positive 35.9% of total count of sentiments
+- Words used mostly include: `game`, `awesome`, `best`, `Update`, `better`, `amazing`, `great` etc
+- Among the top 5 Apps by sentiment count, Facebook and Angry Birds Classic received more Negative sentiments than positives while Google Photos and Family Locator - GPS Tracker had more Positive sentiments than negatives
+
+![](sentiment.png)
 
 
 ## Contributors
