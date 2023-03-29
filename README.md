@@ -106,9 +106,11 @@ Understand the following requirements and query the dataset using MYSQL for disp
 
 - [Python File - Data Cleaning](https://github.com/AkwasiTp/Google-Play-Store-Apps-Analysis/blob/main/PLAYSTORE%20APPS%20ANALYSIS%20%26%20VISUALIZATION-finalcopy.ipynb)
 - [MySQL Queries - Solution to Project Questions](project_queries.sql)
+- [MySQL Queries II - Solution to Project Questions | For Use In cases where Data is imported Using the **Import Wizard** ](PROJECT_QUERIES2.sql)
 - [Power BI Report - Dashboard and Report Metrics](https://www.novypro.com/project/princeboadi)
 - [SQL Walkthrough Video](https://tinyurl.com/SQLvid)
 - [Power BI Dashboard Design Walkthrough Video](https://tinyurl.com/POWERBIvid)
+
 
 
 ### Built with
